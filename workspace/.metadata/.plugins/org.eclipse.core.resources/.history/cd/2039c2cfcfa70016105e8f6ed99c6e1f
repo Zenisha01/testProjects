@@ -1,0 +1,26 @@
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		   {
+		        int n=Integer.parseInt(System.console().readLine("enter the no. n="));
+		        int i,a=1,b=1,c=0;
+		        System.out.println("fibnoci series is:");
+		       
+		        System.out.print(a);
+		        System.out.print(" "+b);
+		        for(i=0;i<=n;i++)
+		                {
+		            c=a+b;
+		            a=b;
+		            b=c;
+		            System.out.print(" "+c);
+		        }
+		        System.out.println();
+		        System.out.print("th value of the series is: "+c);
+		    }
+		}
+	}
+
